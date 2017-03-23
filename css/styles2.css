@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;  
+}
+
+#parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child {
+  height: 50px;
+  background: blue;
+  flex: 1;
+  min-width: 25%;
+  border: 5px solid grey;
+}
+
+header{
+  background: lightgray;
+  height: 80%;
+  border: 5px solid orange;
+}
+
+footer{
+  background: lightgray;
+  height: 80%;
+  border: 5px solid purple;
+}
+@media (max-width: 700px) {
+  .child {
+    min-width: 100%; 
+    background: green;
+  }
+}
+
+@media (max-width: 400px) {
+  .child {
+    min-width: 20%;
+    background: yellow;
+  }
+}

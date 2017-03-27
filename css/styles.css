@@ -1,4 +1,20 @@
+html{
+  color: green;
+}
 .jab {
   background-color: orange;
   color: green;
+}
+
+.videoProviderFilterContainer {
+    color: orange;
+    position: relative;
+    /*display: block;*/
+    padding: 15px 15px 15px 15px;
+    line-height: 20px;
+    color: #fff;
+    background-color: transparent;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-weight: normal;
 }
